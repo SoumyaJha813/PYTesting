@@ -7,3 +7,25 @@ TestCafe          https://devexpress.github.io/testcase/
 Puppeteer         https://developers.google.com/web/tools/puppeteer
 Playwright        https://github.com/microsoft/playwright
 Robot Framework   https://robotframework.org/
+
+
+Cypress
+1. Hybrid open source +paid services
+2. Intentionally designed to work very different from Selenium
+3. All in one test framwework, runner, automation API, graphical running environment
+4. Javascript-only
+5. Support for Chorme, plus some support for Edge and Firfox
+6. Javascript-injecting proxy server intercepts and rewrites all browser requests to enable features.
+
+TestCafe
+1. Similar basic architecture to Cypress
+2. Proxy server that injects Javascript in all pages under test
+3. Javascript-only, just an automation API
+4. Use with any browser and JS test environment
+
+Puppeteer
+1. Developed by Google for headless Chrome automation (running invisibly on the system without a full-fleged window that user can interact with)
+2. Headless testing can increase testing speed while theoretically giving acurrate coverage
+3. Javascript2-only
+4. Works via Devtools/ remote debug protocol
+5. Functional API for other tools (including WebdriverIO)
