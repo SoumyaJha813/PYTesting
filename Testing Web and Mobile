@@ -1,0 +1,9 @@
+Landscape of web testing tools
+
+Web Browser Automation Tools
+Selenium          https://www.selenium.dev/
+Cypress           https://www.cypress.io/
+TestCafe          https://devexpress.github.io/testcase/
+Puppeteer         https://developers.google.com/web/tools/puppeteer
+Playwright        https://github.com/microsoft/playwright
+Robot Framework   https://robotframework.org/
