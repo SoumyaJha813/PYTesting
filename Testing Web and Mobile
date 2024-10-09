@@ -29,3 +29,20 @@ Puppeteer
 3. Javascript2-only
 4. Works via Devtools/ remote debug protocol
 5. Functional API for other tools (including WebdriverIO)
+
+Playwright
+1. Microsoft's version of Puppeteer
+2. Works on Edge and Firefox in addition to Chrome
+3. Modifies browser code to translate DevTools protocol
+
+Robot Framework
+1. Not actually an automation library, rather an umbrella framework
+2. Scripting language, test runner, reporter
+3. Usuable by non-progrrammers
+4. Automation handled by Robot Framework "libraries", like the Selenuim Library
+
+Selenium
+1. Drove the official W3C browser autoamtion standard
+2. Write tests in any programming language
+3. Architecture well-suited for scalling
+4. Focus on real web browsers and real operating systems.
