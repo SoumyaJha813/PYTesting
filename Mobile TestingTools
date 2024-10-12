@@ -1,0 +1,50 @@
+Landscape of Mobile Testing Tools:
+
+Mobile Automation Tools:
+1. Appium 
+2. XCUITest 
+3. Expresso 
+4. UIAutomator
+5. EarlGrey
+6. Detox
+
+XCUITest
+1. Developed by Apple for testing the UI of iOS apps. iOS-only.
+2. Tests written in objective-C or Swift, run with XCode.
+3. Basic UI automation primitives(finding elements, taps, gestures)
+4. Officially supported by Apple, with tight IDE integration
+5. Appium's iOS support is based on XCUITest
+
+Expresso
+1. Automation library from Google, for Andriod Apps.
+2. Tight integration with Andriod Studio.
+3. Tests written with Java or Kotlin.
+4. Gray-box instead of black-box testing model.
+5. Knowledge of apps internals can lead to faster or more stable automation
+6. Can't test just any app-- Expresso code bundled with your app.
+
+UIAutomator
+1. Older automation technology from Google, currently on version 2.
+2. Only for Andriod: Java or Kotlin required for test writing.
+3. Black-box approach to testing. Can automate entire device UI, including third-party apps.
+4. Appium's standard Andriod support is powered by UIAutomator.
+
+EarlGrey
+1. Developed by Google, like Expresso but for iOS.
+2. iOS framework bundled with tests, provide Expresso-like API within Xcode.
+3. Gray-box approach: provided idle synchronization and app-internal code access.
+4. Limited to iOS, using Objective-C or Swift, and testing only your app.
+
+Detox
+1. Designed especially for automation of React Native apps.
+2. Node.js tools; tests must be written in javascript.
+3. Wraps EarlGrey for iOS and Espresso for Android.
+4. Same benefit and drawbacks as EarlGrey and Espresso, but in JavaScript package convenient for React Native developers.
+
+Appium
+1. Appium is more of a philosophical approach than a fundamental automation technology.
+2. Appium makes the best automation technology available in a standard way.
+3. Appium relies on other tools --XCUITest, UIAutomator2, Espresso...
+
+
+
